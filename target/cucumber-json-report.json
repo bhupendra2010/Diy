@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11612815900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Store location",
+        "description": "",
+        "id": "store-finder;store-location",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2650629000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "StepDefProduct.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3130844700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User search for the store and enter his postcode",
+            "match": {
+              "location": "StepDefStore.user_search_for_the_store_and_enter_his_postcode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should find his nearby store",
+            "match": {
+              "location": "StepDefStore.user_should_find_his_nearby_store()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store finder",
+    "description": "",
+    "id": "store-finder",
+    "keyword": "Feature",
+    "uri": "C:/Users/bhupe/DIY/src/test/Resources/store.feature"
+  }
+]

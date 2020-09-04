@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.394422">
+<testcase classname="Store finder" name="Store location" time="17.394422">
+<system-out><![CDATA[Given User is on Homepage...................................................passed
+When User search for the store and enter his postcode.......................passed
+Then User should find his nearby store......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

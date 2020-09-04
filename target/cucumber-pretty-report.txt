@@ -1,0 +1,6 @@
+Feature: Store finder
+
+  Scenario: Store location                                [90m# C:/Users/bhupe/DIY/src/test/Resources/store.feature:3[0m
+    [32mGiven [0m[32mUser is on Homepage[0m                             [90m# StepDefProduct.user_is_on_Homepage()[0m
+    [32mWhen [0m[32mUser search for the store and enter his postcode[0m [90m# StepDefStore.user_search_for_the_store_and_enter_his_postcode()[0m
+    [32mThen [0m[32mUser should find his nearby store[0m                [90m# StepDefStore.user_should_find_his_nearby_store()[0m
